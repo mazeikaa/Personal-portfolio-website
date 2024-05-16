@@ -1,3 +1,16 @@
 * {
   background-color: #fffae6;
 }
+
+.name {
+  font-size: 55px;
+}
+
+span {
+  font-weight: 100;
+}
+
+span,
+h1 {
+  color: #ff5f00;
+}
