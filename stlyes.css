@@ -18,3 +18,18 @@ h1 {
 .hidden {
   display: none;
 }
+
+#message {
+  font-size: 4em;
+}
+
+input,
+input::placeholder {
+  font-size: 10px sans-serif;
+}
+
+.form-section {
+  background-color: ;
+  border: 1px solid black;
+  border-radius: 10px;
+}

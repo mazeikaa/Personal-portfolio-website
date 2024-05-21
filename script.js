@@ -5,7 +5,11 @@ const darkMode = document.querySelector('.dark-mode');
 const bcg = document.querySelector('#background');
 const whiteFontElements = document.querySelectorAll('.white-font'); // all elements with text has this class
 const socialIcons = document.querySelectorAll('.social-icons');
-const hamburgerButton = document.querySelector('.navbar-toggler');
+const navbarToggler = document.querySelector('.navbar-toggler');
+const navbarNav = document.querySelector('.navbar-nav');
+const navMenu = document.getElementById('navmenu');
+
+// Dark Mode functionality
 
 darkMode.addEventListener('click', function () {
   bcg.style.backgroundColor = '#001523';
@@ -33,4 +37,11 @@ lightMode.addEventListener('click', function () {
   socialIcons.forEach(icon => {
     icon.classList.toggle('text-dark');
   });
+});
+
+// Hamburger icon functionality
+
+navbarToggler.addEventListener('click', function () {
+  const navbarNav = navMenu.querySelector('.navbar-nav');
+  navbarNav.classList.toggle('show');
 });
