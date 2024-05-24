@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link white-font">Home</a>
+              <a href="#about" class="nav-link white-font">About</a>
             </li>
             <li class="nav-item">
               <a href="#skills" class="nav-link white-font">Skills</a>
@@ -38,10 +38,7 @@
               <a href="#projects" class="nav-link white-font">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="#experience" class="nav-link white-font">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="#links" class="nav-link white-font">Links</a>
+              <a href="#contact" class="nav-link white-font">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -128,8 +125,8 @@
 
         <!-- About Me -->
         <section class="my-5 white-font px-3">
-          <h1 class="fs-4">About Me</h1>
-          <p class="w-50 my-3">
+          <h1 class="fs-4 my-4 fw-bold">About Me</h1>
+          <p class="w-50">
             I am Renatas Mažeika, a self-taught Front-End developer based in
             Lithuania, Kaunas. I am currently learning and developing small
             projects on my own to improve myself. I am passionate about creating
@@ -141,64 +138,87 @@
 
         <section>
           <div class="container">
-            <h2 class="fs-4 white-font">Skills</h2>
+            <h2 class="fs-4 white-font fw-bold">Skills</h2>
             <div class="d-sm-flex justify-content-between w-25 my-4">
               <div class="align-items-center">
                 <img
-                  width="48"
-                  height="48"
+                  width="60"
+                  height="60"
                   src="https://img.icons8.com/color/48/javascript--v1.png"
                   alt="javascript--v1"
                 />
-                <p class="white-font">Javascript</p>
+                <p class="white-font rounded p-2 skills-bg">Javascript</p>
               </div>
 
               <div class="align-items-center">
                 <img
-                  width="48"
-                  height="48"
+                  width="60"
+                  height="60"
                   src="https://img.icons8.com/color/48/html-5--v1.png"
                   alt="html-5--v1"
                 />
-                <p class="white-font">HTML5</p>
+                <p class="white-font rounded p-2 skills-bg">HTML5</p>
               </div>
 
               <div class="align-items-center">
                 <img
-                  width="48"
-                  height="48"
+                  width="60"
+                  height="60"
                   src="https://img.icons8.com/color/48/css3.png"
                   alt="css3"
                 />
-                <p class="white-font">CSS3</p>
+                <p class="white-font rounded p-2 skills-bg">CSS3</p>
               </div>
             </div>
           </div>
         </section>
-      </div>
-    </section>
 
-    <!-- Contact form -->
-    <section>
-      <div
-        class="container d-flex align-items-left justify-content-left w-75 p-4 form-section"
-      >
-        <form>
-          <label for="fname">First name:</label><br />
-          <input type="text" id="fname" name="fname" /><br />
-          <label for="lname">Last name:</label><br />
-          <input type="text" id="lname" name="lname" /><br />
-          <label for="email">Email address:</label><br />
-          <input type="text" id="email" name="email" /><br />
-          <label for="message">Message:</label><br />
-          <input
-            type="text"
-            id="message"
-            name="message"
-            placeholder="Enter your message"
-          /><br />
-          <button class="rounded p-2">Send message</button>
-        </form>
+        <!-- Contact Me section -->
+        <section class="mx-3 my-3">
+          <div class="d-flex">
+            <h1 class="fs-4 my-4 white-font fw-bold">Contact Me</h1>
+          </div>
+          <div
+            class="container d-flex justify-content-between p-5 form-section"
+          >
+            <form class="fs-5">
+              <label for="email">Email address:</label><br />
+              <input
+                class="rounded border"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              /><br />
+              <label for="email">Full name:</label><br />
+              <input
+                class="rounded border"
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter your name"
+              /><br />
+              <label for="message">Message:</label><br />
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                class="rounded border"
+              /><br />
+
+              <button class="rounded border p-1 px-5 mt-4">Send message</button>
+            </form>
+            <div class="container mx-4">
+              <h1 class="fs-3 m-3 contact-information">Contact information</h1>
+              <p class="m-3">
+                Please fill in the form and I will get in touch with you at my
+                earliest convenience or you can message me throughout my social
+                media accounts. I am looking forward to connect!
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 
